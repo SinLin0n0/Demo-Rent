@@ -13,10 +13,12 @@
 		27DA0163298006AC0080D6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DA0161298006AC0080D6BC /* Main.storyboard */; };
 		27DA0165298006AF0080D6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DA0164298006AF0080D6BC /* Assets.xcassets */; };
 		27DA0168298006AF0080D6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DA0166298006AF0080D6BC /* LaunchScreen.storyboard */; };
+		27DA017129814E690080D6BC /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DA016F29814E690080D6BC /* DMSans-Medium.ttf */; };
+		27DA017229814E690080D6BC /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DA017029814E690080D6BC /* DMSans-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27DA0158298006AC0080D6BC /* Demo(591).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo(591).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DA0158298006AC0080D6BC /* Demo(地囚人租屋).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo(地囚人租屋).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DA015B298006AC0080D6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27DA015D298006AC0080D6BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27DA015F298006AC0080D6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		27DA0164298006AF0080D6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DA0167298006AF0080D6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27DA0169298006AF0080D6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27DA016F29814E690080D6BC /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		27DA017029814E690080D6BC /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +44,7 @@
 		27DA014F298006AC0080D6BC = {
 			isa = PBXGroup;
 			children = (
-				27DA015A298006AC0080D6BC /* Demo(591) */,
+				27DA015A298006AC0080D6BC /* Demo(地囚人租屋) */,
 				27DA0159298006AC0080D6BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +52,33 @@
 		27DA0159298006AC0080D6BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27DA0158298006AC0080D6BC /* Demo(591).app */,
+				27DA0158298006AC0080D6BC /* Demo(地囚人租屋).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27DA015A298006AC0080D6BC /* Demo(591) */ = {
+		27DA015A298006AC0080D6BC /* Demo(地囚人租屋) */ = {
 			isa = PBXGroup;
 			children = (
 				27DA015B298006AC0080D6BC /* AppDelegate.swift */,
 				27DA015D298006AC0080D6BC /* SceneDelegate.swift */,
 				27DA015F298006AC0080D6BC /* ViewController.swift */,
+				27DA017029814E690080D6BC /* DMSans-Bold.ttf */,
+				27DA016F29814E690080D6BC /* DMSans-Medium.ttf */,
 				27DA0161298006AC0080D6BC /* Main.storyboard */,
 				27DA0164298006AF0080D6BC /* Assets.xcassets */,
 				27DA0166298006AF0080D6BC /* LaunchScreen.storyboard */,
 				27DA0169298006AF0080D6BC /* Info.plist */,
 			);
-			path = "Demo(591)";
+			path = "Demo(地囚人租屋)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27DA0157298006AC0080D6BC /* Demo(591) */ = {
+		27DA0157298006AC0080D6BC /* Demo(地囚人租屋) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27DA016C298006AF0080D6BC /* Build configuration list for PBXNativeTarget "Demo(591)" */;
+			buildConfigurationList = 27DA016C298006AF0080D6BC /* Build configuration list for PBXNativeTarget "Demo(地囚人租屋)" */;
 			buildPhases = (
 				27DA0154298006AC0080D6BC /* Sources */,
 				27DA0155298006AC0080D6BC /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Demo(591)";
-			productName = "Demo(591)";
-			productReference = 27DA0158298006AC0080D6BC /* Demo(591).app */;
+			name = "Demo(地囚人租屋)";
+			productName = "Demo(地囚人租屋)";
+			productReference = 27DA0158298006AC0080D6BC /* Demo(地囚人租屋).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 27DA0153298006AC0080D6BC /* Build configuration list for PBXProject "Demo(591)" */;
+			buildConfigurationList = 27DA0153298006AC0080D6BC /* Build configuration list for PBXProject "Demo(地囚人租屋)" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27DA0157298006AC0080D6BC /* Demo(591) */,
+				27DA0157298006AC0080D6BC /* Demo(地囚人租屋) */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27DA0168298006AF0080D6BC /* LaunchScreen.storyboard in Resources */,
+				27DA017229814E690080D6BC /* DMSans-Bold.ttf in Resources */,
+				27DA017129814E690080D6BC /* DMSans-Medium.ttf in Resources */,
 				27DA0165298006AF0080D6BC /* Assets.xcassets in Resources */,
 				27DA0163298006AC0080D6BC /* Main.storyboard in Resources */,
 			);
@@ -289,18 +297,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VV2Q9SW232;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Demo(591)/Info.plist";
+				INFOPLIST_FILE = "Demo(地囚人租屋)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sin.Demo-591-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sin.Demo-地囚人租屋-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,18 +326,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VV2Q9SW232;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Demo(591)/Info.plist";
+				INFOPLIST_FILE = "Demo(地囚人租屋)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sin.Demo-591-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sin.Demo-地囚人租屋-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27DA0153298006AC0080D6BC /* Build configuration list for PBXProject "Demo(591)" */ = {
+		27DA0153298006AC0080D6BC /* Build configuration list for PBXProject "Demo(地囚人租屋)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27DA016A298006AF0080D6BC /* Debug */,
@@ -348,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27DA016C298006AF0080D6BC /* Build configuration list for PBXNativeTarget "Demo(591)" */ = {
+		27DA016C298006AF0080D6BC /* Build configuration list for PBXNativeTarget "Demo(地囚人租屋)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27DA016D298006AF0080D6BC /* Debug */,
