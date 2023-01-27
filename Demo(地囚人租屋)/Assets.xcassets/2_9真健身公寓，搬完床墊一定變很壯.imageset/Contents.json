@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "2_9真健身公寓，搬完床墊一定變很壯.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
